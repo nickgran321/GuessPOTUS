@@ -10,12 +10,23 @@
 		7273DD072429201E001DCC34 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD062429201E001DCC34 /* AppDelegate.swift */; };
 		7273DD092429201E001DCC34 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD082429201E001DCC34 /* SceneDelegate.swift */; };
 		7273DD0C2429201E001DCC34 /* PresidentsMidterm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD0A2429201E001DCC34 /* PresidentsMidterm.xcdatamodeld */; };
-		7273DD0E2429201E001DCC34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD0D2429201E001DCC34 /* ContentView.swift */; };
+		7273DD0E2429201E001DCC34 /* BottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD0D2429201E001DCC34 /* BottomBar.swift */; };
 		7273DD1024292022001DCC34 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7273DD0F24292022001DCC34 /* Assets.xcassets */; };
 		7273DD1324292022001DCC34 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7273DD1224292022001DCC34 /* Preview Assets.xcassets */; };
 		7273DD1624292022001DCC34 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7273DD1424292022001DCC34 /* LaunchScreen.storyboard */; };
 		7273DD2124292022001DCC34 /* PresidentsMidtermTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD2024292022001DCC34 /* PresidentsMidtermTests.swift */; };
 		7273DD2C24292022001DCC34 /* PresidentsMidtermUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD2B24292022001DCC34 /* PresidentsMidtermUITests.swift */; };
+		7273DD3A242921A7001DCC34 /* FirstPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD39242921A7001DCC34 /* FirstPeriod.swift */; };
+		7273DD3C242921B2001DCC34 /* SecondPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD3B242921B2001DCC34 /* SecondPeriod.swift */; };
+		7273DD3E242921BA001DCC34 /* ThirdPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD3D242921BA001DCC34 /* ThirdPeriod.swift */; };
+		7273DD40242921C4001DCC34 /* FourthPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD3F242921C4001DCC34 /* FourthPeriod.swift */; };
+		7273DD42242921D9001DCC34 /* AllPeriods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7273DD41242921D9001DCC34 /* AllPeriods.swift */; };
+		72D9F25824299D370000BFB6 /* ListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9F25724299D370000BFB6 /* ListScreen.swift */; };
+		72D9F25C242ACCAC0000BFB6 /* ListElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9F259242ACCAC0000BFB6 /* ListElementView.swift */; };
+		72D9F25D242ACCAC0000BFB6 /* ListDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9F25A242ACCAC0000BFB6 /* ListDetailView.swift */; };
+		72D9F25E242ACCAC0000BFB6 /* ListElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9F25B242ACCAC0000BFB6 /* ListElement.swift */; };
+		72D9F260242ACD0A0000BFB6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9F25F242ACD0A0000BFB6 /* Constants.swift */; };
+		72D9F262242ACD4A0000BFB6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72D9F261242ACD4A0000BFB6 /* Service.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +47,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7273DD032429201E001DCC34 /* PresidentsMidterm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresidentsMidterm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7273DD032429201E001DCC34 /* Guess POTUS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess POTUS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7273DD062429201E001DCC34 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7273DD082429201E001DCC34 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7273DD0B2429201E001DCC34 /* PresidentsMidterm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PresidentsMidterm.xcdatamodel; sourceTree = "<group>"; };
-		7273DD0D2429201E001DCC34 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7273DD0D2429201E001DCC34 /* BottomBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBar.swift; sourceTree = "<group>"; };
 		7273DD0F24292022001DCC34 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7273DD1224292022001DCC34 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7273DD1524292022001DCC34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,17 @@
 		7273DD2724292022001DCC34 /* PresidentsMidtermUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresidentsMidtermUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7273DD2B24292022001DCC34 /* PresidentsMidtermUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresidentsMidtermUITests.swift; sourceTree = "<group>"; };
 		7273DD2D24292022001DCC34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7273DD39242921A7001DCC34 /* FirstPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPeriod.swift; sourceTree = "<group>"; };
+		7273DD3B242921B2001DCC34 /* SecondPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondPeriod.swift; sourceTree = "<group>"; };
+		7273DD3D242921BA001DCC34 /* ThirdPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdPeriod.swift; sourceTree = "<group>"; };
+		7273DD3F242921C4001DCC34 /* FourthPeriod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthPeriod.swift; sourceTree = "<group>"; };
+		7273DD41242921D9001DCC34 /* AllPeriods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPeriods.swift; sourceTree = "<group>"; };
+		72D9F25724299D370000BFB6 /* ListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListScreen.swift; sourceTree = "<group>"; };
+		72D9F259242ACCAC0000BFB6 /* ListElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListElementView.swift; sourceTree = "<group>"; };
+		72D9F25A242ACCAC0000BFB6 /* ListDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListDetailView.swift; sourceTree = "<group>"; };
+		72D9F25B242ACCAC0000BFB6 /* ListElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListElement.swift; sourceTree = "<group>"; };
+		72D9F25F242ACD0A0000BFB6 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		72D9F261242ACD4A0000BFB6 /* Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +113,7 @@
 		7273DD042429201E001DCC34 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7273DD032429201E001DCC34 /* PresidentsMidterm.app */,
+				7273DD032429201E001DCC34 /* Guess POTUS.app */,
 				7273DD1C24292022001DCC34 /* PresidentsMidtermTests.xctest */,
 				7273DD2724292022001DCC34 /* PresidentsMidtermUITests.xctest */,
 			);
@@ -103,7 +125,18 @@
 			children = (
 				7273DD062429201E001DCC34 /* AppDelegate.swift */,
 				7273DD082429201E001DCC34 /* SceneDelegate.swift */,
-				7273DD0D2429201E001DCC34 /* ContentView.swift */,
+				7273DD0D2429201E001DCC34 /* BottomBar.swift */,
+				7273DD39242921A7001DCC34 /* FirstPeriod.swift */,
+				7273DD3B242921B2001DCC34 /* SecondPeriod.swift */,
+				7273DD3D242921BA001DCC34 /* ThirdPeriod.swift */,
+				7273DD3F242921C4001DCC34 /* FourthPeriod.swift */,
+				7273DD41242921D9001DCC34 /* AllPeriods.swift */,
+				72D9F25F242ACD0A0000BFB6 /* Constants.swift */,
+				72D9F25A242ACCAC0000BFB6 /* ListDetailView.swift */,
+				72D9F25B242ACCAC0000BFB6 /* ListElement.swift */,
+				72D9F259242ACCAC0000BFB6 /* ListElementView.swift */,
+				72D9F25724299D370000BFB6 /* ListScreen.swift */,
+				72D9F261242ACD4A0000BFB6 /* Service.swift */,
 				7273DD0F24292022001DCC34 /* Assets.xcassets */,
 				7273DD1424292022001DCC34 /* LaunchScreen.storyboard */,
 				7273DD1724292022001DCC34 /* Info.plist */,
@@ -156,7 +189,7 @@
 			);
 			name = PresidentsMidterm;
 			productName = PresidentsMidterm;
-			productReference = 7273DD032429201E001DCC34 /* PresidentsMidterm.app */;
+			productReference = 7273DD032429201E001DCC34 /* Guess POTUS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		7273DD1B24292022001DCC34 /* PresidentsMidtermTests */ = {
@@ -270,9 +303,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7273DD40242921C4001DCC34 /* FourthPeriod.swift in Sources */,
+				7273DD3E242921BA001DCC34 /* ThirdPeriod.swift in Sources */,
+				72D9F262242ACD4A0000BFB6 /* Service.swift in Sources */,
+				7273DD3A242921A7001DCC34 /* FirstPeriod.swift in Sources */,
+				7273DD42242921D9001DCC34 /* AllPeriods.swift in Sources */,
+				72D9F25C242ACCAC0000BFB6 /* ListElementView.swift in Sources */,
 				7273DD072429201E001DCC34 /* AppDelegate.swift in Sources */,
+				72D9F25824299D370000BFB6 /* ListScreen.swift in Sources */,
+				72D9F25E242ACCAC0000BFB6 /* ListElement.swift in Sources */,
+				7273DD3C242921B2001DCC34 /* SecondPeriod.swift in Sources */,
 				7273DD092429201E001DCC34 /* SceneDelegate.swift in Sources */,
-				7273DD0E2429201E001DCC34 /* ContentView.swift in Sources */,
+				72D9F25D242ACCAC0000BFB6 /* ListDetailView.swift in Sources */,
+				72D9F260242ACD0A0000BFB6 /* Constants.swift in Sources */,
+				7273DD0E2429201E001DCC34 /* BottomBar.swift in Sources */,
 				7273DD0C2429201E001DCC34 /* PresidentsMidterm.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -447,7 +491,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasgrant.PresidentsMidterm;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Guess POTUS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -466,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nicholasgrant.PresidentsMidterm;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Guess POTUS";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
